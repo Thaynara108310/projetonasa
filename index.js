@@ -15,10 +15,4 @@ function projetoNasa(e){
         }
     document.getElementById('descrição').innerText= response.explanation;
     })
-   /* .catch(err =>date { 
-        console.log(`error ${err}`) 
-        alert("Desculpe, não há resultados para sua pesquisa")
-    });*/
 }
-
-
